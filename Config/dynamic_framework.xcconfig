@@ -1,0 +1,16 @@
+//
+//  dynamic_framework.xcconfig
+//  StaticFrameworks
+//
+//  Created by Paulo F. Andrade on 05/02/2020.
+//  Copyright © 2020 Paulo F. Andrade. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+OTHER_LDFLAGS = -Xlinker -undefined -Xlinker dynamic_lookup
+
+HEADER_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/Modules
+SWIFT_INCLUDE_PATHS = $CONFIGURATION_BUILD_DIR/Modules
+

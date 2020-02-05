@@ -1,0 +1,13 @@
+//
+//  static_framework.xcconfig
+//  StaticFrameworks
+//
+//  Created by Paulo F. Andrade on 05/02/2020.
+//  Copyright © 2020 Paulo F. Andrade. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+CONFIGURATION_BUILD_DIR = $SYMROOT/$CONFIGURATION/Static
